@@ -4,7 +4,7 @@ Documentation, implementation, and codes to my journey of learning GPU programmi
 
 Credit to: https://github.com/hkproj/100-days-of-gpu
 
-Bro in the 100 days challenge:
+Bro in the 100 days challenge: https://github.com/mustafasegf/cuda-100-days-challange
 
 ## Day 1
 
