@@ -24,3 +24,67 @@ ideal for model training, simple computation intensive processing, graphics proc
 - **Chapter 1 & 2** - PMPP.
 
 ### File: `addVec.cu`
+
+## Day 2
+
+### Summary:
+Worked on a 2D matrix multiplication with custom execution configuration paramaters.
+liniearize multidimentional arrrays in C into 1D offset (notes)[].
+each thread compute one element of the multiplication.
+
+### Learned:
+- function declarations
+- kernal call
+- some CUDA C syntax
+- mapping 2D matrix to threads
+
+### Reading:
+- Chapter 3 - PMPP
+
+### File: `MatMul.cu`
+
+## Day 3
+
+### Summary:
+Implemented the Color to Grayscale Conversion for image. used opencv to handle image reading to unsigned char.
+each thread compute 1 channel of one output pixel.
+
+### Learned
+- we can use C++ compiler paramaters to nvcc
+- how to work with offsets
+- how to work with GPU and image processing
+
+### Reading:
+- Chapter 3 - PMPP
+
+### File: `colorToGrayscaleConversion.cu`
+
+## Day 4
+
+### Summary:
+Implemented the blur image kernel for blurring image. used opencv to handle image reading to unsigned char and to grayscale because the kernel handle only 1 channel (grayscale).
+each thread compute 1 channel of one output pixel.
+
+### Learned
+- we can use C++ compiler paramaters to nvcc
+- how to work with offsets
+- how to work with GPU and image processing
+
+### Reading:
+- Chapter 3 - PMPP
+
+### File: `blur.cu`
+
+## Day 5
+
+### Summary:
+Answered the exercise on chapter 3. analyzed the kernel difference kernel design.
+
+### Learned:
+- differentiate between 1D kernel to multidimentional kernel use case
+- how to map 3D tensor to 1D array
+
+### Reading:
+- Chapter 3 exercise - PMPP
+
+### File: `exercise-chapter-3.cu`
