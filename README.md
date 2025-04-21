@@ -29,7 +29,7 @@ ideal for model training, simple computation intensive processing, graphics proc
 
 ### Summary:
 Worked on a 2D matrix multiplication with custom execution configuration paramaters.
-liniearize multidimentional arrrays in C into 1D offset (notes)[].
+liniearize multidimentional arrays in C into 1D offset [multidimentional array in CUDA C](https://github.com/wreckitral/100daysofgpu/blob/main/notes/dynamicArrayinCuda.md).
 each thread compute one element of the multiplication.
 
 ### Learned:
